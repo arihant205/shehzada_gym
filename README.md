@@ -1,1 +1,0 @@
-# shehzada_gym website
