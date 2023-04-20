@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width",initial-scale=1.0>
+        <meta http-equiv="x-ua-compactible" content="ie=edge">
+        <title>SIGN UP</title>
+        <style>
+        .container{
+            position: absolute;
+            top: 20%;
+            left:36%;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 25px;
+            background-color: rgb(0, 255, 229);;
+            text-align: center;
+            display: inline-block;
+            border:4px solid rgb(128, 96, 0);
+            border-radius: 10px;
+            margin:10px;
+            padding:10px;
+        }
+        .box{
+            margin:5px;
+            padding: 10px;
+            
+
+        }
+        .box2{
+            margin:2px;
+            padding:4px;
+            
+        }
+       
+        
+        </style>
+    </head>
+    <body>
+       
+        <div class="container">
+            <h3> WELCOME TO OUR FAMILY </h3>
+            <form action="backend.php">
+                <div class="box">
+                   
+
+                    <label for="myphone">
+                        PHONE  :
+                        <input type="varchar" id="myphone" >
+                    </label> 
+                </div>
+                    
+                    <div class="box">
+
+                        <label for="myusernmae">USERNAME :
+                            
+                            <input type="char" id="myusername">
+                        </label>
+                    </div>
+                    <div class="box">
+
+                        <label for="myage">AGE :
+                            
+                            <input type="INT" id="myage">
+                        </label>
+                    </div>
+                    <div class="box">
+
+                        <label for="mygender">GENDER:
+                            
+                             MALE <input type="radio" name="mygender"> FEMALE<input type="radio" name="mygender">
+                        </label>
+                    </div>
+                    <div class="box">
+
+                        <label for="mypassword">PASSWORD :
+                            
+                            <input type="char" id="mypassword">
+                        </label>
+                    </div>
+                    <div class="box2">
+                    <input type="button" value="SIGN UP">    
+                    </div>
+                </form>
+            </div>
+            <div class="background">
+                <img src="login_back.jpg" width="100%" height="50%">
+            </div>
+    </body>
+</html>

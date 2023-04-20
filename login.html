@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width",initial-scale=1.0>
+        <meta http-equiv="x-ua-compactible" content="ie=edge">
+        <title>LOG IN</title>
+        <style>
+        .container{
+            position: absolute;
+            top: 40%;
+            left:36%;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 25px;
+            background-color: gold;
+            text-align: center;
+            display: inline-block;
+            border:4px solid rgb(0, 128, 15);
+            border-radius: 10px;
+            margin:10px;
+            padding:10px;
+        }
+        .box{
+            margin:5px;
+            padding: 10px;
+         
+
+        }
+        .box2{
+            margin:2px;
+            padding:4px;
+            
+        }
+        H3{
+        margin:5px;
+        
+        }
+        
+        </style>
+    </head>
+    <body>
+       
+        <div class="container">
+            <h3>WELCOME BACK</h3>
+            <form action="backend.php">
+                <div class="box">
+                   
+
+                    <label for="myusername">
+                        USERNAME :
+                        <input type="varchar" id="myusername" >
+                    </label> 
+                </div>
+                    
+                    <div class="box">
+
+                        <label for="mypassword">PASSWORD :
+                            
+                            <input type="char" id="mypassword">
+                        </label>
+                    </div>
+                    <div class="box2">
+                    <input type="button" value="LOGIN NOW">    
+                    </div>
+                </form>
+            </div>
+            <div class="background">
+                <img src="login_back.jpg" width="100%" height="100%">
+            </div>
+    </body>
+</html>
